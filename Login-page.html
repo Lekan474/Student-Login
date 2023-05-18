@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login Page</title>
+    <style>
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: white;
+        }
+        button{
+            background-color: blue;
+            width: 11%;
+            color: white;
+            padding: 10px;
+            font-size: 14px;
+        }
+        form{
+            text-align: center;
+            font-size: 18px;
+         }
+        h1{
+            text-align: center;
+        }
+        .small-fonts1{
+            font-size: 13px;
+        }
+        .small-fonts2{
+            font-size: 14px;
+        }
+        
+    </style>
+</head>
+<body>
+         <h1>Student Login Form</h1>
+
+    
+        <form>
+            <div class="Usernamebox">
+             <label for="name">Username:</label>
+             <input type="text" name="name" id="name" class="name" placeholder="Enter Username" required >
+            </div>
+          <br>
+            <div>   
+             <label for="password">Password:</label>
+             <input type="password" name="password" id="password" class="password" placeholder="Enter Password" required >
+            </div>
+
+           <p class="small-fonts1">By clicking Agree & Join, you agree to the student <a href="##">User Agreement,</a><a href="##">Privacy Policy,Cookies Policy.</a></p>
+
+            <!-- Remmber me checkbox -->
+
+            <p class="small-fonts2"><input type="checkbox" checked="checked"> Remember me </p>
+
+            <button type="submit">Agree & Join</button>
+
+            <br>
+            <br>
+
+            <div>
+               <button type="button">Continue with Google</button>
+            </div>
+        </form>
+</body>
+</html>
